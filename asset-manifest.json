@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ndbhakhar-apptest/static/css/main.05ba44b4.css",
-    "main.js": "/ndbhakhar-apptest/static/js/main.4add2738.js",
+    "main.js": "/ndbhakhar-apptest/static/js/main.cef8b086.js",
     "static/js/787.9efc0c6b.chunk.js": "/ndbhakhar-apptest/static/js/787.9efc0c6b.chunk.js",
     "static/media/image 3.png": "/ndbhakhar-apptest/static/media/image 3.a68b5a7c41eb8980bc21.png",
     "static/media/logo.png": "/ndbhakhar-apptest/static/media/logo.40707992c21d81ab487a.png",
@@ -12,11 +12,11 @@
     "static/media/icomoon.ttf?3pgiup": "/ndbhakhar-apptest/static/media/icomoon.586c91dbecfa9f1ad468.ttf",
     "index.html": "/ndbhakhar-apptest/index.html",
     "main.05ba44b4.css.map": "/ndbhakhar-apptest/static/css/main.05ba44b4.css.map",
-    "main.4add2738.js.map": "/ndbhakhar-apptest/static/js/main.4add2738.js.map",
+    "main.cef8b086.js.map": "/ndbhakhar-apptest/static/js/main.cef8b086.js.map",
     "787.9efc0c6b.chunk.js.map": "/ndbhakhar-apptest/static/js/787.9efc0c6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05ba44b4.css",
-    "static/js/main.4add2738.js"
+    "static/js/main.cef8b086.js"
   ]
 }
