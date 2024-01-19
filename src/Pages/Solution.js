@@ -21,7 +21,7 @@ export default function Solution() {
                 return(
                     <>
                     <div key={i+'1'} className="col-12 col-xl-4 col-sm-6">
-                    <div key={i} className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`${solution.icon} fs-60 text-blue`}></i>
+                    <div key={i} className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`${solution.icon} fs-60 text-blue`}></i>
                         <div className="service-name heading5 text-center mt-24">{solution.name}</div>
                         <div className="service-desc text-on-surface-variant1 text-center mt-12">{solution.desc}</div></a>
                     </div>

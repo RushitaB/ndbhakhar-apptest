@@ -11,7 +11,7 @@ import Contact from './Pages/ContactUs/Contact';
 function App() {
   return (
     <>
-      <HashRouter base="/">
+      <HashRouter>
         <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>

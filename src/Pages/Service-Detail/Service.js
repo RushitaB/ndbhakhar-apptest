@@ -49,37 +49,37 @@ export default function Service() {
                             <div className="heading3 text-center mt-12">Our Services</div>
                             <div className="row row-gap-40 mt-40 sub-nav-solution">
                             <div key={`solution_1`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-phone-sync fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-phone-sync fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">Income Tax Return</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">As per the income tax laws, the return must be filed every year by an individual or business that earns any income during a financial year.</div></a>
                                                     </div>
                                                 </div>
                             <div key={`solution_2`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-user-sync fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-user-sync fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">Statutory Audit</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">A statutory audit is a legally required review of the accuracy of a company`s or government`s financial statements and records.</div></a>
                                                     </div>
                                                 </div>
                             <div key={`solution_3`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-device-cloud fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-device-cloud fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">GST Return Filing</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">Comprehensive GST accounting platform that takes care of your business finance end-to-end. Create tax reports and file GST returns. Stay on top of tax compliance with us.</div></a>
                                                     </div>
                                                 </div>
                             <div key={`solution_4`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-cloud-dots fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-cloud-dots fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">Project Finance</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">Financial Structuring is an important part of business planning. Locating cost effective and best suited sources of finance for your project is our strength.</div></a>
                                                     </div>
                                                 </div>
                             <div key={`solution_5`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-phone-cloud fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-phone-cloud fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">Accounting</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">Accounting is the process of measuring, processing, and sharing financial and other information about businesses and corporations.</div></a>
                                                     </div>
                                                 </div>
                             <div key={`solution_6`} className="col-12 col-xl-4 col-sm-6">
-                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/service-detail"><i className={`icon-device-sync fs-60 text-blue`}></i>
+                                                    <div className="solution-item service-item nav-item-main p-40 bora-20 bg-white h-100" data-cate="IT Solutions" data-item="solution1"><a className="main-item flex-column-item-center" href="/#/service-detail"><i className={`icon-device-sync fs-60 text-blue`}></i>
                                                         <div className="service-name heading5 text-center mt-24">Business Consultancy</div>
                                                         <div className="service-desc text-on-surface-variant1 text-center mt-12">We have been working with startups for the past several years. During this time we have developed a wealth of knowledge.</div></a>
                                                     </div>
@@ -99,49 +99,49 @@ export default function Service() {
                             </div>
                             <div className="row mt-40 row-gap-12 sub-nav-solution">
                             <div key={`service_1`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><PiBank /></i>
                                     <div className="service-name heading6 pl-12">Finance & Banking</div>
                                 </a>
                             </div>
                             <div key={`service_2`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><AiOutlineAudit /></i>
                                     <div className="service-name heading6 pl-12">Audit and Assurance</div>
                                 </a>
                             </div>
                             <div key={`service_3`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><TbReceiptTax /></i>
                                     <div className="service-name heading6 pl-12">Tax Advisory and Compliances</div>
                                 </a>
                             </div>
                             <div key={`service_4`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><GrCompliance /></i>
                                     <div className="service-name heading6 pl-12">Corporate and Secreterial Compliances</div>
                                 </a>
                             </div>
                             <div key={`service_5`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><MdMiscellaneousServices /></i>
                                     <div className="service-name heading6 pl-12">Corporate Advisory Services</div>
                                 </a>
                             </div>
                             <div key={`service_6`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><SiCrowdsource /></i>
                                     <div className="service-name heading6 pl-12">Business Process Outsourcing</div>
                                 </a>
                             </div>
                             <div key={`service_7`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><MdOutlineManageAccounts /></i>
                                     <div className="service-name heading6 pl-12">Management Consultancy</div>
                                 </a>
                             </div>
                             <div key={`service_8`} className="col-sm-6 col-12"> 
-                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/service-detail" data-cate="Finance Consulting" data-item="">
+                                <a className="service-item nav-item-main bg-surface pt-16 pb-16 pl-20 pr-20 flex-item-center bora-8 h-100" href="/#/service-detail" data-cate="Finance Consulting" data-item="">
                                     <i className={`fs-24`}><RiCustomerService2Line /></i>
                                     <div className="service-name heading6 pl-12">Start up Advisory</div>
                                 </a>

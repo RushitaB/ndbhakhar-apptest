@@ -2,10 +2,12 @@ import { useRef } from "react";
 import { PiPaperPlaneTilt } from "react-icons/pi";
 import { TfiEmail } from "react-icons/tfi";
 import emailjs from '@emailjs/browser';
+import { useNavigate } from "react-router-dom";
 
 
 export default function Footer() {
   const form = useRef();
+  const navigate = useNavigate();
 
   const sendEmail = (e) =>{
     e.preventDefault();
@@ -18,6 +20,14 @@ export default function Footer() {
       });
       e.target.reset();
   }
+
+    const handleLinkClick = (newPath) => {
+      navigate(newPath)
+
+      setTimeout(() => {
+        window.location.reload();
+      }, 100);
+    };
   return (
     <>
          <div id="footer">
@@ -37,10 +47,10 @@ export default function Footer() {
                 <div className="footer-nav-item">
                   <div className="item-heading text-button">Company</div>
                   <ul className="list-nav mt-12">
-                    <li className="mt-8"><a className="caption1 text-line hover-underline" href="/">Home</a></li>
-                    <li className="mt-8"><a className="caption1 text-line hover-underline" href="/about-us">About us</a></li>
-                    <li className="mt-8"><a className="caption1 text-line hover-underline" href="/service-detail">Services</a></li>
-                    <li className="mt-8"><a className="caption1 text-line hover-underline" href="contact-us">Contact</a></li>
+                    <li className="mt-8"><a  className="caption1 text-line hover-underline" href="/">Home</a></li>
+                    <li className="mt-8"><span  className="caption1 text-line hover-underline" onClick={()=> handleLinkClick('/about-us')}>About us</span></li>
+                    <li className="mt-8"><span className="caption1 text-line hover-underline" onClick={()=> handleLinkClick('/service-detail')}>Services</span></li>
+                    <li className="mt-8"><span className="caption1 text-line hover-underline" onClick={()=> handleLinkClick('/contact-us')}>Contact</span></li>
                   </ul>
                 </div>
               </div>

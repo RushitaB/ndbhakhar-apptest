@@ -1,12 +1,22 @@
 import { useState } from "react";
 import { Offcanvas } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from "react-router-dom";
 
 export function Header (){
+  const navigate = useNavigate();
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleLinkClick = (newPath) => {
+    navigate(newPath)
+
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  };
 
     return(
         <>
@@ -20,11 +30,11 @@ export function Header (){
             <ul className="flex-center">
               <li> <span><a href="/" className="no-underline">Home</a></span>
               </li>
-              <li> <span><a href="/about-us" className="no-underline">About Us</a></span>
+              <li><span onClick={()=> handleLinkClick('/about-us')} className="no-underline">About Us</span>
               </li>
-              <li> <span><a href="/service-detail" className="no-underline">Services</a></span>
+              <li><span onClick={()=> handleLinkClick('/service-detail')} className="no-underline">Services</span>
               </li>
-              <li> <span><a href="/contact-us" className="no-underline">Contact</a></span>
+              <li><span onClick={()=> handleLinkClick('/contact-us')} className="no-underline">Contact</span>
               </li>
               
             </ul>
@@ -40,11 +50,11 @@ export function Header (){
         <ul className="">
               <li className="p-3 border-b-2"> <span><a href="/" className="no-underline">Home</a></span>
               </li>
-              <li className="p-3 border-b-2"> <span><a href="/about-us" className="no-underline">About Us</a></span>
+              <li className="p-3 border-b-2"> <span onClick={()=> handleLinkClick('/about-us')} className="no-underline">About Us</span>
               </li>
-              <li className="p-3 border-b-2"> <span><a href="/service-detail" className="no-underline">Services</a></span>
+              <li className="p-3 border-b-2"> <span onClick={()=> handleLinkClick('/service-detail')} className="no-underline">Services</span>
               </li>
-              <li className="p-3 border-b-2"> <span><a href="/contact-us" className="no-underline">Contact</a></span>
+              <li className="p-3 border-b-2"> <span onClick={()=> handleLinkClick('/contact-us')} className="no-underline">Contact</span>
               </li>
               
             </ul>
